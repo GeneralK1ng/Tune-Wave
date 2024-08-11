@@ -20,6 +20,11 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000"
       },
+      "infoPlist": {
+        "UIbackgroundModes": [
+          "audio"
+        ]
+      },
       "package": "com.k1ng.music"
     },
     "web": {
