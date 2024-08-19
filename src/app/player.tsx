@@ -36,7 +36,11 @@ const PlayerScreen = () => {
 	return (
 		<LinearGradient
 			style={{ flex: 1 }}
-			colors={imageColor ? [imageColor.average, imageColor.dominant] : [colors.background]}
+			colors={
+				imageColor
+					? [imageColor.average, imageColor.dominant]
+					: [colors.background, colors.background]
+			}
 		>
 			<View style={styles.overlayContainer}>
 				<DismissPlayerSymbol />
